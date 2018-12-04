@@ -3,7 +3,7 @@
 G04 PADS VX.2.3 Build Number: 9191294 generated Gerber (RS-274-X) file*
 G04 PC Version=2.1*
 *
-%IN "currentMonitorWithLED-R"*%
+%IN "currentMonitorWithLED.p"*%
 *
 %MOIN*%
 *
@@ -62,17 +62,17 @@ G04 PC Aperture Table*
 *
 *
 G04 PC Circuitry*
-G04 Layer Name currentMonitorWithLED-R - circuitry*
+G04 Layer Name currentMonitorWithLED.p - circuitry*
 %LPD*%
 *
 *
 G04 PC Custom Flashes*
-G04 Layer Name currentMonitorWithLED-R - flashes*
+G04 Layer Name currentMonitorWithLED.p - flashes*
 %LPD*%
 *
 *
 G04 PC Circuitry*
-G04 Layer Name currentMonitorWithLED-R - circuitry*
+G04 Layer Name currentMonitorWithLED.p - circuitry*
 %LPD*%
 *
 G54D10*
