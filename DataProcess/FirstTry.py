@@ -1,6 +1,7 @@
 import os, stat
 from six.moves import urllib
 import zipfile
+import csv
 
 DATA_ROOT = "http://archive.ics.uci.edu/"
 DATA_PATH = "ml/machine-learning-databases/00360/"
@@ -40,20 +41,23 @@ class Download:
         self.URL = self.root + self.path + self.file
         print("File    \t", self.file)
 
-    def SetLocalPath(self, local):
-        self.local = local
-        print("Dir     \t", self.local)
+    def SetDir(self, loc):
+        self.loc = loc
+        print("Dir     \t", self.loc)
+
+    def GetDir(self):
+        return self.loc
 
     def Download(self):
-        if (not os.path.isdir(self.local)):
-            print("Makedir \t", self.local)
-            os.makedirs(self.local, mode=0o777)
+        if (not os.path.isdir(self.loc)):
+            print("Makedir \t", self.loc)
+            os.makedirs(self.loc, mode=0o777)
         else:
-            print("Exists  \t" + self.local)
+            print("Exists  \t", self.loc)
             
-        if not os.path.isfile(self.local + '\\' + self.file):
+        if not os.path.isfile(self.loc + '\\' + self.file):
             print("Download\t", self.file)
-            urllib.request.urlretrieve(self.URL, os.path.join(self.local,self.file))
+            urllib.request.urlretrieve(self.URL, os.path.join(self.loc,self.file))
             os.path.join(os.getcwd(),"Data")
         else:
             print("Exists  \t", self.file)
@@ -80,6 +84,9 @@ class Unzip:
         self.dest = os.path.join(self.loc,self.file)
         print("Dir     \t", self.loc)
 
+    def GetDir(self):
+        return self.loc
+
     def SetFile(self, file):
         self.file = file
         self.dest = os.path.join(self.loc,self.file)
@@ -100,17 +107,42 @@ class Unzip:
         print("List    \t")
         for x in os.listdir(self.loc):
             print("        	",x)
+
+class Parse:
+    def __init__(self, loc, file):
+        self.loc = loc
+        self.file = file
+        self.dest = os.path.join(self.loc,self.file)
+        print("Init    \t", self.dest)
+        
+    def SetFile(self, file):
+        self.file = file
+        self.dest = os.path.join(self.loc,self.file)
+        print("File    \t", self.file)
+
+    def Parse(self):
+        print("Parse   \t", self.dest)
+        with open(os.path.join(self.loc,self.file), mode='r') as self.infile:
+            self.d = dict(filter(None, csv.reader(self.infile)))
+        print(self.d)
        
 d = Download(DATA_ROOT, DATA_PATH, DATA_FILE)
 d.SetFile(DATA_FILE)
 d.SetPath(DATA_PATH)
 d.SetRoot(DATA_ROOT)
-d.SetLocalPath(LOCAL_PATH)
+d.SetDir(LOCAL_PATH)
 d.Download()
-p = Unzip(LOCAL_PATH,DATA_FILE)
-p.SetDir(LOCAL_PATH)
-p.SetFile(DATA_FILE)
-p.Unzip()
-p.List()
+u = Unzip(LOCAL_PATH,DATA_FILE)
+u.SetDir(d.GetDir())
+u.SetFile(DATA_FILE)
+u.Unzip()
+u.List()
+f= input("# Please input a file name: ")
+p = Parse(u.GetDir(), f)
+p.SetFile(f)
+p.Parse()
+
+
+
 
 
