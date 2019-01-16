@@ -1,2 +1,5 @@
 Rev A: 11/23/2018 4:05:41 PM
 Rev B: 12/04/2018 11:58:45 AM 
+Rev C:
+	1. Add shunt diode for Ref_1 & Ref_2
+	2. paralel 1uF over R11 & R19
