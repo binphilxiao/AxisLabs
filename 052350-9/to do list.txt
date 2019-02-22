@@ -1,0 +1,5 @@
+1. TEST THE CHARGING FROM solar panel
+2. over charge & under charge 
+4. testing points
+5. current measure of solar panel----------done
+6. recheck the polarity of en_buck & en_load
