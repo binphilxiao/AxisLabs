@@ -3,3 +3,8 @@
 4. testing points
 5. current measure of solar panel----------done
 6. recheck the polarity of en_buck & en_load
+7. compare sch and prototyping
+8. check the polarity of opamp output
+9. check test points
+10. think about current monitoring of solar panel
+
