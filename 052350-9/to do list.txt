@@ -7,4 +7,5 @@
 8. check the polarity of opamp output
 9. check test points
 10. think about current monitoring of solar panel
+read layout guide
 
