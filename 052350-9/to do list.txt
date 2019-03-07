@@ -8,4 +8,7 @@
 9. check test points
 10. think about current monitoring of solar panel
 read layout guide
+via too big under buck
+SOME TESTPOINTS ARE not in right place
+
 
