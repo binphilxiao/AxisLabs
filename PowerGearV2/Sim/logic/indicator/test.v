@@ -53,32 +53,34 @@ module test();
 		#100	rst=0;
 		#100	rst=1;
 
-		//	full battery,	button released,	no usb plugged in,	not charging 		off
-		#100    level=1;	button=0;		usb=0; 			neg=0; pos=1;
-		//      full battery,	button pressed,		no usb plugged in,	not charging  		green
-		#1000   level=1;	button=1;		usb=0; 			neg=0; pos=1;
-		//      low battery,	button released,	no usb plugged in,	not charging  		off
-		#1000   level=0;	button=0;		usb=0; 			neg=0; pos=1;
-		//      low battery,	button pressed,		no usb plugged in,	not charging  		green,red
-		#1000   level=0;	button=1; 		usb=0; 			neg=0; pos=1;
+		//	D			A		B			C,E
+		//      no usb plugged in,	low battery,	button released,	not charging  		off
+		#1000   usb=0;			level=0;	button=0;		neg=0; pos=1;
+		//      no usb plugged in,	low battery,	button pressed,		not charging  		red
+		#1000   usb=0;			level=0;	button=1; 		neg=0; pos=1;
+		//	no usb plugged in,	full battery,	button released,	not charging 		off
+		#100    usb=0;			level=1;	button=0;		neg=0; pos=1;
+		//      no usb plugged in,	full battery,	button pressed,		not charging  		green
+		#1000   usb=0;			level=1;	button=1;		neg=0; pos=1;
 
-		//	full battery,	button released,	usb plugged in,		not charging  		green
-		#1000   level=1;	button=0;		usb=1; 			neg=0; pos=1;
-		//      full battery,	button pressed,		usb plugged in,		not charging  		green
-		#1000   level=1;	button=1;		usb=1; 			neg=0; pos=1;
-		//      low battery,	button released,	usb plugged in, 	charging		green,red	
-		#1000   level=0;	button=0;		usb=1; 			neg=1; pos=0;
-		//      low battery,	button pressed,		usb plugged in, 	charging		green,red
-		#1000   level=0;	button=1;		usb=1; 			neg=1; pos=0;
+		//      usb plugged in,		low battery,	button released,	charging		green,red	
+		#1000   usb=1;			level=0;	button=0;		neg=1; pos=0;
+		//      usb plugged in,		low battery,	button pressed,		charging		green,red
+		#1000   usb=1;			level=0;	button=1;		neg=1; pos=0;
+		//	usb plugged in,		full battery,	button released,	not charging  		green
+		#1000   usb=1;			level=1;	button=0;		neg=0; pos=1;
+		//      usb plugged in,		full battery,	button pressed,		not charging  		green
+		#1000   usb=1;			level=1;	button=1;		neg=0; pos=1;
 
-		//	full battery,	button released,	usb plugged in,		fault 			red blk
-		#1000   level=1;	button=0;		usb=1; 			neg=0; pos=0;
-		//      full battery,	button pressed,		usb plugged in,		fault  			red blk
-		#1000   level=1;	button=1;		usb=1; 			neg=0; pos=0;
-		//      low battery,	button released,	usb plugged in, 	fault			red blk
-		#1000   level=0;	button=0;		usb=1; 			neg=0; pos=0;
-		//      low battery,	button pressed,		usb plugged in, 	fault			red blk
-		#1000   level=0;	button=1;		usb=1; 			neg=0; pos=0;
+
+		//	usb plugged in,		full battery,	button released,	fault 			red blk
+		#1000   usb=1;			level=1;	button=0;		neg=0; pos=0;
+		//      usb plugged in,		full battery,	button pressed,		fault  			red blk
+		#1000   usb=1;			level=1;	button=1;		neg=0; pos=0;
+		//      usb plugged in,		low battery,	button released,	fault			red blk
+		#1000   usb=1;			level=0;	button=0;		neg=0; pos=0;
+		//      usb plugged in,		low battery,	button pressed,		fault			red blk
+		#1000   usb=1;			level=0;	button=1;		neg=0; pos=0;
 
 		#1000 $finish;
 
