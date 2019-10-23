@@ -12,12 +12,20 @@ module indicator(
 
 input clk, rst, level, button, usb, stat, pos, neg;
 output red,green;
+wire a,b,c,d,e,f;
 
-//assign red = (~level)&neg | (~level)&button&(~usb) | ~(neg)&(~pos)&stat;     //Red table  R = !AC + !AB!D + !C!EF
-//assign green = neg | pos&level&button | pos&level&usb;                 //Green table  G = C + EAB + EAD
+assign a = level;
+assign b = button;
+assign c = neg;
+assign e = pos;
+assign d = usb;
+assign f = stat;
 
-assign red = ~(level|(~neg)) | ~(level|(~button)|usb) | ~(neg|pos|(~stat));     //Red table  R = !(A+!C) + !(A+!B+D) + !(C+E+!F)
-assign green = neg | pos&level&button | pos&level&usb;                 //Green table  G = C + !(!E+!A+!B) + !(!E+!A+!D)
+assign red = !a&!f | !a&b&!d | !c&!e&!f;
+assign green = a&c | a&e&f | !a&c&d;
+
+//assign red = ~(level|(~neg)) | ~(level|(~button)|usb) | ~(neg|pos|(~stat));     //Red table  R = !(A+!C) + !(A+!B+D) + !(C+E+!F)
+//assign green = neg | pos&level&button | pos&level&usb;                 //Green table  G = C + !(!E+!A+!B) + !(!E+!A+!D)
 
 /*always @(posedge clk or negedge rst)
 begin
