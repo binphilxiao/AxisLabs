@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GPDProject version="11" oldestCompatibleVersion="11" GPDVersion="6.20.001" lastChange="10/28/2019 3:59 PM">
+<GPDProject version="11" oldestCompatibleVersion="11" GPDVersion="6.20.001" lastChange="10/29/2019 2:46 PM">
     <generalProjectSettings/>
     <chip family="04" type="03" friendlyName="GreenPAK 3" partNumber="2" package="6">
-        <nvmData registerLenght="1024">9E F 0 0 E0 F9 DE E5 3 BE EF 3 0 0 0 0 0 F8 0 0 C 52 B0 5B 1D 37 8A CB 5E 86 4C 86 99 0 0 4 FC 3E 48 CA 5 0 1A 0 0 0 20 1 1 C0 2B 0 30 0 E5 E 0 0 0 78 FE F7 F9 DF E7 3 80 A6 30 5A 8 A8 42 28 4 40 40 7F 0 40 C0 AA 2A 0 0 0 FD FF 1 20 0 0 2 0 20 0 8 0 2 98 46 12 3C A1 19 19 D8 80 51 4 C C C 18 45 46 91 31 20 0 0 4 50 5A 7C 0 0 A5</nvmData>
-        <checksum crc32="0xF4A41578" version="0"/>
+        <nvmData registerLenght="1024">9E F 0 0 E0 F9 DE E5 3 3E E0 3 0 0 0 0 0 F8 0 0 C 52 B0 5B 1D 37 8A C9 5E 86 4C 86 99 0 0 4 FC 3E 48 CA 5 0 1A 0 0 0 20 1 1 C0 2B 0 30 0 E5 E 0 0 0 78 FE F7 F9 DF E7 3 80 A6 30 5A 8 A8 42 28 4 40 40 7F 0 40 C0 AA 2A 0 0 0 FD FF 1 20 0 0 2 0 20 0 8 0 2 98 6 0 3C 21 18 1 D8 80 51 4 24 C C 18 45 46 91 31 20 0 0 4 50 5A 7C 0 0 A5</nvmData>
+        <checksum crc32="0xD7F4EB09" version="0"/>
         <LUT id="0" regularShape="0" mode="2">
             <item id="0" caption="2-bit LUT0/DFF/LATCH4">
                 <graphics pos="(95.22,-71.33)" angle="90" flipping="0" hidden="0" tOrigin="(20.00,15.00)"/>
@@ -88,10 +88,10 @@
             <graphics pos="(-80.00,-404.00)" angle="0" flipping="0" hidden="0" tOrigin="(22.50,25.00)"/>
         </item>
         <item id="17" caption="A CMP1">
-            <graphics pos="(-83.00,-298.00)" angle="0" flipping="0" hidden="0" tOrigin="(22.50,25.00)"/>
+            <graphics pos="(-83.00,-298.00)" angle="0" flipping="0" hidden="1" tOrigin="(22.50,25.00)"/>
         </item>
         <item id="18" caption="A CMP2">
-            <graphics pos="(-83.00,-186.00)" angle="0" flipping="0" hidden="0" tOrigin="(22.50,25.00)"/>
+            <graphics pos="(-84.00,-187.00)" angle="0" flipping="0" hidden="0" tOrigin="(22.50,25.00)"/>
         </item>
         <item id="19" caption="A CMP3">
             <graphics pos="(-81.00,-81.00)" angle="0" flipping="0" hidden="0" tOrigin="(22.50,25.00)"/>
@@ -183,7 +183,7 @@
                 <textLabel pos="(-2.00,-29.00)" angle="0.00" textColor="#00ff00ff" backgroundColor="#14141464">GREEN</textLabel>
             </item>
         </IOPad>
-        <IOPad id="36" useCaseMode="3">
+        <IOPad id="36" useCaseMode="1">
             <item id="36" caption="PIN 10">
                 <graphics pos="(-238.00,-302.00)" angle="0" flipping="0" hidden="0" tOrigin="(20.00,10.00)"/>
                 <textLabel pos="(12.50,-29.00)" angle="0.00" textColor="#ffff00ff" backgroundColor="#14141464">B</textLabel>
@@ -279,17 +279,11 @@
         <wire output="6" input="111" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" protected="1" CWLid="0" wireText="NET0" wireState="0">
             <points>(-178.00,-392.00); (-101.00,-392.00)</points>
         </wire>
-        <wire output="83" input="116" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="POR" wireState="1">
-            <points/>
-        </wire>
-        <wire output="10" input="114" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" protected="1" CWLid="2" wireText="NET2" wireState="0">
-            <points>(-176.00,-286.00); (-104.00,-286.00)</points>
-        </wire>
         <wire output="83" input="119" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="POR" wireState="1">
             <points/>
         </wire>
         <wire output="12" input="117" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" protected="1" CWLid="3" wireText="NET3" wireState="0">
-            <points>(-176.00,-175.00); (-119.00,-175.00); (-119.00,-174.00); (-104.00,-174.00)</points>
+            <points>(-176.00,-175.00); (-105.00,-175.00)</points>
         </wire>
         <wire output="83" input="122" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="POR" wireState="1">
             <points/>
@@ -298,7 +292,7 @@
             <points/>
         </wire>
         <wire output="12" input="120" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" protected="1" CWLid="3" wireText="NET3" wireState="0">
-            <points>(-176.00,-175.00); (-119.00,-175.00); (-119.00,-69.00); (-102.00,-69.00)</points>
+            <points>(-176.00,-175.00); (-142.00,-175.00); (-142.00,-69.00); (-102.00,-69.00)</points>
         </wire>
         <wire output="81" input="30" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" protected="1" CWLid="4" wireText="NET4" wireState="0">
             <points>(452.00,-573.00); (452.00,-514.00); (242.00,-514.00); (242.00,-537.00)</points>
@@ -349,9 +343,6 @@
             <points/>
         </wire>
         <wire output="70" input="54" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="10" wireText="nA" wireState="1">
-            <points/>
-        </wire>
-        <wire output="54" input="53" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="21" wireText="B" wireState="1">
             <points/>
         </wire>
         <wire output="55" input="57" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="6" wireText="nC" wireState="1">
@@ -453,6 +444,9 @@
         <wire output="37" input="0" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="26" wireText="NET26" wireState="0">
             <points>(574.00,-29.00); (661.00,-29.00); (661.00,124.00); (674.00,124.00)</points>
         </wire>
+        <wire output="10" input="53" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="2" wireText="B" wireState="1">
+            <points/>
+        </wire>
     </chip>
     <emulatorConfiguration version="1">
         <settings>
@@ -474,8 +468,8 @@
             <lastConfiguration modified="1">
                 <SaveEmulator Name="Default">
                     <PowerOptions synced="0"/>
-                    <PowerSwitch internalPower="0" externalPower="1"/>
-                    <ExpansionConnector>1:1;2:1;3:0;4:1;5:1;6:1;7:0;8:0;9:0;10:1;11:0;12:1;13:1;14:0;15:0;16:0;17:0;18:0;19:0;20:0</ExpansionConnector>
+                    <PowerSwitch internalPower="1" externalPower="0"/>
+                    <ExpansionConnector>1:0;2:1;3:0;4:1;5:1;6:1;7:0;8:0;9:0;10:1;11:0;12:1;13:1;14:0;15:0;16:0;17:0;18:0;19:0;20:0</ExpansionConnector>
                     <TestPoints>
                         <TPC ID="1" Type="8">
                             <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="81" GlobalLink="0"/>
