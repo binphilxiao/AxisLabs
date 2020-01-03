@@ -1,0 +1,89 @@
+*
+*
+G04 PADS VX.2.5 Build Number: 12793778 generated Gerber (RS-274-X) file*
+G04 PC Version=2.1*
+*
+%IN "BatteryPackFront.pcb"*%
+*
+%MOIN*%
+*
+%FSLAX35Y35*%
+*
+*
+*
+*
+G04 PC Standard Apertures*
+*
+*
+G04 Thermal Relief Aperture macro.*
+%AMTER*
+1,1,$1,0,0*
+1,0,$1-$2,0,0*
+21,0,$3,$4,0,0,45*
+21,0,$3,$4,0,0,135*
+%
+*
+*
+G04 Annular Aperture macro.*
+%AMANN*
+1,1,$1,0,0*
+1,0,$2,0,0*
+%
+*
+*
+G04 Odd Aperture macro.*
+%AMODD*
+1,1,$1,0,0*
+1,0,$1-0.005,0,0*
+%
+*
+*
+G04 PC Custom Aperture Macros*
+*
+*
+*
+*
+*
+*
+G04 PC Aperture Table*
+*
+%ADD010C,0.001*%
+%ADD037C,0.01*%
+%ADD038R,0.01575X0.05315*%
+*
+*
+*
+*
+G04 PC Circuitry*
+G04 Layer Name BatteryPackFront.pcb - circuitry*
+%LPD*%
+*
+*
+G04 PC Custom Flashes*
+G04 Layer Name BatteryPackFront.pcb - flashes*
+%LPD*%
+*
+*
+G04 PC Circuitry*
+G04 Layer Name BatteryPackFront.pcb - circuitry*
+%LPD*%
+*
+G54D10*
+G54D37*
+G01X229921Y325984D02*
+X107874D01*
+Y136024*
+X139370*
+Y100000*
+X198425*
+Y136024*
+X229921*
+Y325984*
+G54D38*
+X174015Y116535D03*
+X171456D03*
+X168897D03*
+X166338D03*
+X163779D03*
+X0Y0D02*
+M02*
