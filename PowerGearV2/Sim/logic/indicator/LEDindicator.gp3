@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GPDProject version="11" oldestCompatibleVersion="11" GPDVersion="6.20.001" lastChange="10/31/2019 2:41 PM">
+<GPDProject version="11" oldestCompatibleVersion="11" GPDVersion="6.20.001" lastChange="1/7/2020 3:05 PM">
     <generalProjectSettings/>
     <chip family="04" type="03" friendlyName="GreenPAK 3" partNumber="2" package="6">
         <nvmData registerLenght="1024">9E 3 78 E E0 39 9A E7 0 BE EF 3 3E 0 0 0 0 F8 65 B0 F 52 B0 5B 1D 37 8A CB E 85 4C 7B 39 2D E8 4 FC 3E 48 8A 6 0 1B 0 64 18 29 1 1 C0 2B A7 39 0 12 F 0 0 0 7C E F0 39 C0 E7 7C CE A6 30 5A 68 A8 42 2C 7 40 40 0 0 40 C0 AA 2A FF 1 0 FD FF C9 20 0 0 2D 0 92 82 F 0 2 98 C6 14 3C 21 BA 81 EE A0 4B E8 E C C BA 98 2E A6 DB 25 0 2 4 10 5A 7F 0 0 A5</nvmData>
