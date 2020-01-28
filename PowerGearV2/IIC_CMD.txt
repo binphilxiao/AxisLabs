@@ -7,6 +7,7 @@ Setup Bus Pirate
 
 PCA6408 I/O Expander
 	[0x40 0x03 0x30]	//Config Bit0~3, Bit6~7 output, Bit4~5 input Bit
+	[0x40 0x03 0xff]	//Config Bit0~7 input Bit, for saving quscient power
 	[0x40 0x01 0x00]	//Set Bit0~4 0, Boost_sw 0, Boost_en 0
 	[0x40 0x01 0x0f]	//Set Bit0~4 1, Boost_sw 0, Boost_en 0
 	[0x40 0x01 0xcf]	//Boost converter enabled, V_motor is set to 9V, Set Bit0~4 1, Boost_sw 1, Boost_en 1
@@ -18,7 +19,7 @@ BQ24296	USB Charger
 	[0xD6 0x01 0x5b]	//Reset Host mode watch dog. Default mode(non host mode) will stop charging after 12 hours
 	Input control
 		[0xD6 0x00 0x00]	//Disable
-		[0xD6 0x00 0xa0]	//Enable, 4.2V(input voltage limit), 100mV(input current limit)
+		[0xD6 0x00 0xa0]	//Enable, 4.2V(input voltage limit), 100mA(input current limit)
 		[0xD6 0x00 0xa6]	//Enable, 4.2V(input voltage limit), 2A(input current limit)
 	Fast charging current control
 		[0xD6 0x02 0x40]	//Charging current <= 1536mA 
@@ -49,6 +50,8 @@ BQ24296	USB Charger
 		[0xD6 0x02 0x40]	//Charging current <= 1536mA 
 
 BQ27426	Fuel Gauge
+	Shutdown
+		[0xaa 0x00 0x1b 0x00][0xaa 0x00 0x1c 0x00]
 	Wake up		
 		[0x40 0x03 0x10][0x40 0x01 0x0f][0x40 0x01 0x2f]	//Config Bit0~3, Bit5~7 output, Bit4 input Bit //Set Bit0~4 1, Boost_sw 0, Boost_en 0, GPOUT 0, //Set Bit0~4 1, Boost_sw 0, Boost_en 0, GPOUT 1,
 		delay 200us
