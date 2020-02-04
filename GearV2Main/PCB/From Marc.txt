@@ -1,0 +1,16 @@
+Here is the LED setup for the battery pack that is the winner:
+1 Right angle LED, ~1 cm away from the diffuser
+color: 523nm Green, 632nm Red
+Resistors: 200 Ohm for the green and 68 ohm for the Red
+The lens should be diffused
+
+
+
+
+
+4:27
+HSMF-C145 This is the one that I tested, digikey doesn't have any options with diffused lens
+4:27
+so maybe ignore that, clear lens is fine
+4:30
+we can try this one: XZMDKDGK56W next time you have a digikey order, lens should be more diffused
