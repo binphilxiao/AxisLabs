@@ -16,6 +16,7 @@ Rev.A
 	Remove the plane beneath the BLE antanna
 	R11 should be nop
 	Boot indicator in ONION and BLE
+	PRG_NRESET PULL UP TO VDD_BLE
 
 Reset problem on board #5
 
