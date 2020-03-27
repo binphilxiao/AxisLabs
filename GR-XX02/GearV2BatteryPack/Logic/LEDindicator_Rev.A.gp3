@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GPDProject version="11" oldestCompatibleVersion="11" GPDVersion="6.20.001" lastChange="2/13/2020 11:17 AM">
+<GPDProject version="11" oldestCompatibleVersion="11" GPDVersion="6.20.001" lastChange="3/26/2020 3:37 PM">
     <generalProjectSettings/>
     <chip family="04" type="03" friendlyName="GreenPAK 3" partNumber="2" package="6">
         <nvmData registerLenght="1024">9E 3 78 E E0 39 9A E7 0 BE EF 3 3E 0 0 0 0 F8 65 B0 F 52 B0 5B 1D 37 8A CB E 85 4C 7B 39 2D E8 4 FC 3E 48 8A 6 0 1B 0 64 18 29 1 1 C0 2B A7 39 0 12 F 0 0 0 7C E F0 39 C0 E7 7C CE A6 30 5A 68 A8 42 2C 7 40 40 0 0 40 C0 AA 2A FF 1 0 FD FF C9 20 0 0 5D 0 92 82 F 0 2 98 C6 14 3C 21 BA 81 EE A0 4B E8 E C C BA 98 2E A6 DB 25 0 2 4 10 5A 7F 0 0 A5</nvmData>
@@ -500,7 +500,7 @@
     <emulatorConfiguration version="1">
         <settings>
             <autoApply value="0"/>
-            <platformSelector id="1"/>
+            <platformSelector id="3"/>
         </settings>
         <platform id="0" friendlyName="GreenPAK DIP Development Platform">
             <lastConfiguration modified="0">
@@ -598,6 +598,10 @@
                 <probes>
                     <probe category="0" componentType="2" componentNumber="9" pinNumber="0"/>
                     <probe category="0" componentType="2" componentNumber="19" pinNumber="0"/>
+                    <probe category="0" componentType="3" componentNumber="0" pinNumber="0"/>
+                    <probe category="0" componentType="3" componentNumber="1" pinNumber="0"/>
+                    <probe category="0" componentType="3" componentNumber="2" pinNumber="0"/>
+                    <probe category="0" componentType="3" componentNumber="3" pinNumber="0"/>
                     <probe category="0" componentType="16" componentNumber="1" pinNumber="0"/>
                     <probe category="0" componentType="16" componentNumber="5" pinNumber="0"/>
                     <probe category="0" componentType="20" componentNumber="0" pinNumber="0"/>
@@ -612,106 +616,15 @@
                     <gnd category="0" componentType="0" componentNumber="0" pinNumber="0"/>
                 </gnds>
                 <voltageSources>
-                    <vsrc category="0" componentType="1" componentNumber="0" pinNumber="0" hasRC="1" intR="1.000000e+01|4" intC="1.000000e+02|7" showOnePer="0" hasLimitedVoltage="0" td="0.000000e+00|5" viewName="VDD" V="3.300000e+00|4" tr="1.000000e+00|5" type="ramp"/>
-                    <vsrc category="0" componentType="2" componentNumber="2" pinNumber="0" hasRC="0" intR="1.000000e+01|4" intC="1.000000e+01|8" showOnePer="0" hasLimitedVoltage="0" td="0.000000e+00|4" viewName="PIN 2 (Src)" V="0.000000e+00|4" type="dc"/>
-                    <vsrc category="0" componentType="2" componentNumber="4" pinNumber="0" hasRC="0" intR="1.000000e+01|4" intC="1.000000e+01|8" showOnePer="0" hasLimitedVoltage="0" td="0.000000e+00|4" viewName="PIN 4 (Src)" V="0.000000e+00|4" type="dc"/>
+                    <vsrc category="0" componentType="1" componentNumber="0" pinNumber="0" hasRC="1" intR="1.000000e+01|4" intC="1.000000e+02|7" showOnePer="0" hasLimitedVoltage="0" td="0.000000e+00|5" viewName="VDD" V="4.500000e+00|4" tr="1.000000e+02|5" type="ramp"/>
+                    <vsrc category="0" componentType="2" componentNumber="2" pinNumber="0" hasRC="0" intR="1.000000e+01|4" intC="1.000000e+01|8" showOnePer="0" hasLimitedVoltage="0" td="0.000000e+00|4" viewName="PIN 2 (Src)" V="3.300000e+00|4" type="dc"/>
+                    <vsrc category="0" componentType="2" componentNumber="4" pinNumber="0" hasRC="0" intR="1.000000e+01|4" intC="1.000000e+01|8" showOnePer="0" hasLimitedVoltage="0" td="0.000000e+00|5" viewName="PIN 4 (Src)" dutyCycle="50" fr="1.000000e+00|4" maxU="3.300000e+00|4" minU="0.000000e+00|4" tf="1.000000e+00|6" tr="1.000000e+00|6" type="clock"/>
                     <vsrc category="0" componentType="2" componentNumber="6" pinNumber="0" hasRC="0" intR="1.000000e+01|4" intC="1.000000e+01|8" showOnePer="0" hasLimitedVoltage="0" td="0.000000e+00|4" viewName="PIN 6 (Src)" V="2.200000e+00|4" type="dc"/>
-                    <vsrc category="0" componentType="2" componentNumber="10" pinNumber="0" hasRC="0" intR="1.000000e+01|4" intC="1.000000e+01|8" showOnePer="0" hasLimitedVoltage="0" td="0.000000e+00|5" viewName="PIN 10 (Src)" dutyCycle="50" fr="1.000000e+00|4" maxU="3.300000e+00|4" minU="0.000000e+00|4" tf="1.000000e+00|6" tr="1.000000e+00|6" type="clock"/>
-                    <vsrc category="0" componentType="2" componentNumber="12" pinNumber="0" hasRC="0" intR="1.000000e+01|4" intC="1.000000e+01|8" showOnePer="0" hasLimitedVoltage="0" td="0.000000e+00|4" viewName="PIN 12 (Src)" V="2.300000e+00|4" type="dc"/>
-                    <vsrc category="0" componentType="2" componentNumber="13" pinNumber="0" hasRC="0" intR="1.000000e+01|4" intC="1.000000e+01|8" showOnePer="0" hasLimitedVoltage="0" td="0.000000e+00|4" viewName="PIN 13 (Src)" V="0.000000e+00|4" type="dc"/>
+                    <vsrc category="0" componentType="2" componentNumber="10" pinNumber="0" hasRC="0" intR="1.000000e+01|4" intC="1.000000e+01|8" showOnePer="0" hasLimitedVoltage="0" td="0.000000e+00|4" viewName="PIN 10 (Src)" V="0.000000e+00|4" type="dc"/>
+                    <vsrc category="0" componentType="2" componentNumber="12" pinNumber="0" hasRC="0" intR="1.000000e+01|4" intC="1.000000e+01|8" showOnePer="0" hasLimitedVoltage="0" td="0.000000e+00|4" viewName="PIN 12 (Src)" V="3.500000e+00|4" type="dc"/>
+                    <vsrc category="0" componentType="2" componentNumber="13" pinNumber="0" hasRC="0" intR="1.000000e+01|4" intC="1.000000e+01|8" showOnePer="0" hasLimitedVoltage="0" td="0.000000e+00|4" viewName="PIN 13 (Src)" V="1.000000e+00|4" type="dc"/>
                 </voltageSources>
-                <groups>
-                    <group name="[S] VDD">
-                        <waveforms>
-                            <waveform category="0" componentType="1" componentNumber="0" pinNumber="0"/>
-                        </waveforms>
-                    </group>
-                    <group name="[P] POR">
-                        <waveforms>
-                            <waveform category="0" componentType="20" componentNumber="0" pinNumber="0"/>
-                        </waveforms>
-                    </group>
-                    <group name="[P] OE">
-                        <waveforms>
-                            <waveform category="0" componentType="16" componentNumber="1" pinNumber="0"/>
-                        </waveforms>
-                    </group>
-                    <group name="[P] CLK">
-                        <waveforms>
-                            <waveform category="0" componentType="21" componentNumber="0" pinNumber="9"/>
-                        </waveforms>
-                    </group>
-                    <group name="[P] CLK2">
-                        <waveforms>
-                            <waveform category="0" componentType="21" componentNumber="0" pinNumber="3"/>
-                        </waveforms>
-                    </group>
-                    <group name="[P] PIN 9 &lt;- EXT. IN/OUT">
-                        <waveforms>
-                            <waveform category="0" componentType="2" componentNumber="9" pinNumber="0"/>
-                        </waveforms>
-                    </group>
-                    <group name="[P] PIN 19 &lt;- EXT. IN/OUT">
-                        <waveforms>
-                            <waveform category="0" componentType="2" componentNumber="19" pinNumber="0"/>
-                        </waveforms>
-                    </group>
-                    <group name="[S] PIN 10 (Src)">
-                        <waveforms>
-                            <waveform category="0" componentType="2" componentNumber="10" pinNumber="0"/>
-                        </waveforms>
-                    </group>
-                    <group name="[S] PIN 4 (Src)">
-                        <waveforms>
-                            <waveform category="0" componentType="2" componentNumber="4" pinNumber="0"/>
-                        </waveforms>
-                    </group>
-                    <group name="[S] PIN 2 (Src)">
-                        <waveforms>
-                            <waveform category="0" componentType="2" componentNumber="2" pinNumber="0"/>
-                        </waveforms>
-                    </group>
-                    <group name="[S] PIN 6 (Src)">
-                        <waveforms>
-                            <waveform category="0" componentType="2" componentNumber="6" pinNumber="0"/>
-                        </waveforms>
-                    </group>
-                    <group name="[S] PIN 12 (Src)">
-                        <waveforms>
-                            <waveform category="0" componentType="2" componentNumber="12" pinNumber="0"/>
-                        </waveforms>
-                    </group>
-                    <group name="[S] PIN 13 (Src)">
-                        <waveforms>
-                            <waveform category="0" componentType="2" componentNumber="13" pinNumber="0"/>
-                        </waveforms>
-                    </group>
-                    <group name="[P] 3-L8 -&gt; OUT">
-                        <waveforms>
-                            <waveform category="1" componentType="7" componentNumber="8" pinNumber="0"/>
-                        </waveforms>
-                    </group>
-                    <group name="[P] 4-L1 -&gt; OUT">
-                        <waveforms>
-                            <waveform category="1" componentType="8" componentNumber="1" pinNumber="0"/>
-                        </waveforms>
-                    </group>
-                    <group name="[P] DFF 2 -&gt; Q">
-                        <waveforms>
-                            <waveform category="1" componentType="10" componentNumber="2" pinNumber="0"/>
-                        </waveforms>
-                    </group>
-                    <group name="[P] DFF 3 -&gt; Q">
-                        <waveforms>
-                            <waveform category="1" componentType="10" componentNumber="3" pinNumber="0"/>
-                        </waveforms>
-                    </group>
-                    <group name="[P] G">
-                        <waveforms>
-                            <waveform category="0" componentType="16" componentNumber="5" pinNumber="0"/>
-                        </waveforms>
-                    </group>
-                </groups>
+                <groups/>
                 <waveforms>
                     <waveform category="0" componentType="1" componentNumber="0" pinNumber="0" name="[S] VDD">
                         <waveformSetup penColor="#26e056" penWidth="2" style="0" attributes="1" symbol="-1" symSize="6" symColor="#ff0000"/>
