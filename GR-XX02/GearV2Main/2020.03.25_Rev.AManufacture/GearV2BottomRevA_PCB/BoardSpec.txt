@@ -8,6 +8,7 @@
 	xxx.s1	Top silkscreen
 	xxx.s2	Bottom silkscreen
 	xxx.drl	drill
+	xxx.o	outline
 
 4 Layer def:
 	xxx.f1	Top copper

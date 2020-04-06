@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GPDProject version="11" oldestCompatibleVersion="11" GPDVersion="6.21.005" lastChange="3/30/2020 9:46 AM">
+<GPDProject version="11" oldestCompatibleVersion="11" GPDVersion="6.21.005" lastChange="4/2/2020 5:36 PM">
     <generalProjectSettings/>
     <chip family="04" type="03" friendlyName="GreenPAK 3" partNumber="2" package="6">
-        <nvmData registerLenght="1024">93 3 4C E 30 39 DA E4 0 BE EF 3 3E 0 0 0 0 F8 0 0 C 52 B0 5B 1D 37 8A CB 5E 86 4C 7B 39 2D E8 4 FC 3E 48 A 0 0 0 0 64 98 29 1 1 C0 2B 0 30 0 E5 E 0 0 0 54 E 50 39 40 E5 54 CE A6 30 DA 69 A8 42 2C 4 40 40 0 0 40 40 0 0 FF 1 0 FD FF C9 20 0 0 5D 0 92 82 F 0 2 98 C6 14 C 27 BA 81 EE A0 4B E8 E C C BA 98 2E A6 DB 25 0 2 4 10 5A 7F 0 0 A5</nvmData>
-        <checksum crc32="0x6F5C710C" version="0"/>
+        <nvmData registerLenght="1024">93 3 4C E 30 39 DA E4 0 BE EF 3 3E 0 0 0 0 F8 0 0 C 52 B0 5B 1D 37 8A CB 5E 86 4C 7B 39 2D E8 4 FC 3E 48 A 0 0 0 0 64 98 29 1 1 C0 2B 0 30 0 E5 E 0 0 0 54 E 50 39 40 E5 54 CE A6 30 DA 69 A8 42 28 4 40 40 0 0 40 40 0 0 FF 1 0 FD FF C9 20 0 0 5D 0 92 82 F 0 2 98 C6 14 C 27 BA 81 EE A0 4B E8 E C C BA 98 2E A6 DB 25 0 0 4 10 5A 7F 0 0 A5</nvmData>
+        <checksum crc32="0x2871742" version="0"/>
         <LUT id="0" regularShape="0" mode="2">
             <item id="0" caption="2-bit LUT0/DFF/LATCH4">
                 <graphics pos="(95.22,-291.33)" angle="90" flipping="0" hidden="0" tOrigin="(20.00,15.00)"/>
@@ -479,7 +479,7 @@
     <emulatorConfiguration version="1">
         <settings>
             <autoApply value="0"/>
-            <platformSelector id="3"/>
+            <platformSelector id="1"/>
         </settings>
         <platform id="0" friendlyName="GreenPAK DIP Development Platform">
             <lastConfiguration modified="0">
