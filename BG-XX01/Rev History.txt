@@ -20,3 +20,18 @@ Rev.A
 
 Reset problem on board #5
 
+Here are the notes for the Bridge review:
+U9 part is deprecated but they have a replacement part with similar specs, so just need a quick review
+For P7, please add Tx, Rx, Gnd marking on the silkscreen of the part decal"
+Please break the UART_Tx and UART_Rx lines with 0Ohm resistor and add 2 headers (SIP-3P) on either side of the resistors, this will be used for automated testing
+Did you test the USB OC chip in current board? As well as OC / OV testing and checking the quality of the Buck converter circuit (efficiency / ripple) ect?
+U5, U6 (and all their passives) R42, R43 should be market NOP
+U10, B input needs a resistor pull up
+
+
+
+
+
+5:55
+last I will spend some time later thinking about the test points needed for factory jig testing, but you should spend some time on that as well since this is likely the revision for production.
+
