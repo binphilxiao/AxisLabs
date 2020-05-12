@@ -1,0 +1,5 @@
+Bottom Board:
+	1. J1 is reversed in pinout. Keep the routing and reverse the pinout in Sch.
+
+Main Board:
+	1. X3 is updated to FC-135R 32.7680KA-A3 which is available in the market.
