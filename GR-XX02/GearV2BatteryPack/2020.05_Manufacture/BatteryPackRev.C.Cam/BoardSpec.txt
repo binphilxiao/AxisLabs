@@ -8,7 +8,7 @@
 	xxx.s1	Top silkscreen
 	xxx.s2	Bottom silkscreen
 	xxx.drl	Drill
-	xxx.0	Board Outline
+	xxx.o	Board Outline
 
 4 Layer def:
 	xxx.f1	Top copper
@@ -22,12 +22,11 @@
 	xxx.s1	Top silkscreen
 	xxx.s2	Bottom silkscreen
 	xxx.drl	Drill
-	xxx.0	Board Outline
-
+	xxx.o	Board Outline
 
 Rigid Board:
 1.   MATERIAL:  Copper clad FR-4 Laminate per MIL-P-13949/4 GFN Finished
-2.   COPPER WEIGHT:   1 oz.
+2.   COPPER WEIGHT:   2 oz.
 3.   NUMBER OF COPPER LAYERS:  4
 4.   OVERALL THICKNESS:   1.5mm +/- 0.15 mm
 5.   IMPEDANCE CONTROL: Not specified.
@@ -35,7 +34,7 @@ Rigid Board:
 7.   PLATING:   ENIG
 8.   SILKSCREEN:   White Epoxy Both Sides.
 9.   VIAS:    Tented, not filled.
-10.   DIELECTRIC CONSTANT:   Not specified.
+10.  DIELECTRIC CONSTANT:   Not specified.
 11.  FABRICATION STANDARD:   IPC-A-600F, Class 2 unless otherwise specified.
 12.  UL796 FLAME RATING:   Not required
 13.  LAMINATE GLASS TRANSITION TEMP:   180C or better
