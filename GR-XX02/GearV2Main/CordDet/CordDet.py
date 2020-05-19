@@ -8,9 +8,9 @@ Length_data = 8192
 Sample_rate = 200
 FFT_N = 256
 Reference_freq = 20
-Ref_or_data = 1 #1: data, 0: reference sin
+Ref_sig = 1 #1: data, 0: reference sin
 File_number = 1
-Log_or_Raw = 0 #1: Log y axis, 0: Raw value
+Log_FFT = 0 #1: Log y axis, 0: Raw value
 #---------------------Reading data----------------------------
 if (File_number == 1):
     df = pd.read_csv('thinCord-A-01.csv')
@@ -31,7 +31,7 @@ y_ref = np.sin(2*np.pi*Reference_freq*t)
 #plt.show()
 #---------------------Sampled data--------------------
 sample=[]
-if (Ref_or_data ==1):
+if (Ref_sig ==1):
     y_in = y_raw
 else:
     y_in = y_ref
@@ -50,20 +50,22 @@ plt.legend(loc=4)
 plt.show()
 #---------------------FFT-----------------------------
 x_fft = np.linspace(0, Sample_rate/2, FFT_N//2)
-if Log_or_Raw == 1:
+if Log_FFT == 1:
     y_fft = np.log(abs(fft(sample)))
 else:
     y_fft = abs(fft(sample))
 plt.plot(x_fft[1:FFT_N//2], y_fft[1:FFT_N//2], label = 'FFT of sampled signal')
 plt.grid()
 plt.xlabel('Frequency (Hz)')
-if Log_or_Raw == 1:
+if Log_FFT == 1:
     plt.ylabel('Spectral Amplitude (dB)')
 else:
     plt.ylabel('Spectral Amplitude')
 plt.legend(loc=1)
 plt.show()
 #---------------------Filter--------------------------
+#   Parameter created by Iowa Hills IIR
+#   http://www.iowahills.com/4IIRFilterPage.html
 #   Sample rate =   1k Hz
 #   Fc =            30.5 Hz
 #   Bw =            50.5 Hz
@@ -76,6 +78,7 @@ plt.show()
 #   b0   -0.438395206537278315
 #   b1   0.000000000000000000
 #   b2   0.438395206537278315
+#   Y[n] = ∑(i=0,N)b[i]*X[n-i] - ∑(i=1,N)a[i]*Y[n-i] 
 N_Poles = 2
 b = (-0.438395206537278315,
      0.000000000000000000,
@@ -111,14 +114,14 @@ plt.ylabel('Amplitude (V)')
 plt.legend(loc=1)
 plt.show()
 #---------------------FFT Filtered----------------------
-if Log_or_Raw == 1:
+if Log_FFT == 1:
     y_fft = np.log(abs(fft(y)))
 else:
     y_fft = abs(fft(y))
 x_fft = np.linspace(0, Sample_rate/2, FFT_N//2)
 plt.grid()
 plt.xlabel('Frequency (Hz)')
-if Log_or_Raw == 1:
+if Log_FFT == 1:
     plt.ylabel('Spectral Amplitude (dB)')
 else:
     plt.ylabel('Spectral Amplitude')
