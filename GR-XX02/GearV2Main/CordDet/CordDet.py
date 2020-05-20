@@ -9,13 +9,17 @@ Sample_rate = 200
 FFT_N = 256
 Reference_freq = 20
 Ref_sig = 1 #1: data, 0: reference sin
-File_number = 1
+File_number = 3
 Log_FFT = 0 #1: Log y axis, 0: Raw value
 #---------------------Reading data----------------------------
 if (File_number == 1):
     df = pd.read_csv('thinCord-A-01.csv')
 elif (File_number == 2):
     df = pd.read_csv('thickCord-A-02.csv')
+elif (File_number == 3):
+    df = pd.read_csv('thinCord-A-03.csv')
+elif (File_number == 4):
+    df = pd.read_csv('thickCord-A-04.csv')
 else:
     df = pd.read_csv('thinCord-A-01.csv')
 y_raw= np.array(df['Channel1(V)'])
@@ -107,7 +111,7 @@ for j in range(FFT_N):
         regY[0] -= a[k]* regY[k]
     y[j] = regY[0]      
 x1 = np.linspace(-0.512, 0.512, FFT_N)
-plt.plot(x1[100:FFT_N], y[100:FFT_N], label = 'Filtered signal')
+plt.plot(x1[50:FFT_N], y[50:FFT_N], label = 'Filtered signal')
 plt.grid()
 plt.xlabel('Time (Sec)')
 plt.ylabel('Amplitude (V)')
