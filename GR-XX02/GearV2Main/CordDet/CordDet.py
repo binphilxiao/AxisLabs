@@ -9,7 +9,7 @@ Sample_rate = 1000
 FFT_N = 1024
 Reference_freq = 20
 Ref_sig = 1 #1: data, 0: reference sin
-File_number = 17
+File_number = 1
 Log_FFT = 0 #1: Log y axis, 0: Raw value
 Filter_No =2 
 #---------------------Reading data----------------------------
@@ -156,7 +156,7 @@ for j in range(FFT_N):
         regY[0] -= a[k]* regY[k]
     y[j] = regY[0]      
 x1 = np.linspace(-0.512, 0.512, FFT_N)
-plt.plot(x1[0:FFT_N], y[0:FFT_N], label = 'Filtered signal')
+plt.plot(x1[150:FFT_N], y[150:FFT_N], label = 'Filtered signal')
 plt.grid()
 plt.xlabel('Time (Sec)')
 plt.ylabel('Amplitude (V)')
