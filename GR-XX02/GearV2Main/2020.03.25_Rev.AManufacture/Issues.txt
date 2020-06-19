@@ -2,6 +2,7 @@ Bottom Board:
 	1. J1 is reversed in pinout. Keep the routing and reverse the pinout in Sch.
 	2. J1 is not reversed, add a corner on outline of J1
 	3. J2 is easy to break.
+	4. bottom solder mask issue
 
 Main Board:
 	1. X3 is updated to FC-135R 32.7680KA-A3 which is available in the market.
