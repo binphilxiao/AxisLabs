@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GPDProject version="11" oldestCompatibleVersion="11" GPDVersion="6.21.005" lastChange="4/2/2020 5:36 PM">
+<GPDProject version="11" oldestCompatibleVersion="11" GPDVersion="6.21.005" lastChange="7/24/2020 2:04 PM">
     <generalProjectSettings/>
     <chip family="04" type="03" friendlyName="GreenPAK 3" partNumber="2" package="6">
-        <nvmData registerLenght="1024">93 3 4C E 30 39 DA E4 0 BE EF 3 3E 0 0 0 0 F8 0 0 C 52 B0 5B 1D 37 8A CB 5E 86 4C 7B 39 2D E8 4 FC 3E 48 A 0 0 0 0 64 98 29 1 1 C0 2B 0 30 0 E5 E 0 0 0 54 E 50 39 40 E5 54 CE A6 30 DA 69 A8 42 28 4 40 40 0 0 40 40 0 0 FF 1 0 FD FF C9 20 0 0 5D 0 92 82 F 0 2 98 C6 14 C 27 BA 81 EE A0 4B E8 E C C BA 98 2E A6 DB 25 0 0 4 10 5A 7F 0 0 A5</nvmData>
-        <checksum crc32="0x2871742" version="0"/>
+        <nvmData registerLenght="1024">93 3 4C E 30 39 9A E6 0 BE EF 3 3E 0 0 0 0 F8 0 0 C 52 B0 5B 1D 37 8A CB 5E 86 4C 7B 39 2D E8 4 FC 3E 48 A 0 0 0 0 64 98 29 1 1 C0 2B 0 30 0 E5 E 0 0 0 54 E 50 39 40 E5 6C CE A6 30 DA 69 A8 42 28 4 40 40 0 0 40 40 0 0 FF 1 0 FD FF C9 20 0 0 5D 0 92 82 F 0 2 98 C6 14 C 27 BA 81 EE A0 4B E8 E C C BA 98 2E A6 DB 25 0 0 4 10 5A 7F 0 0 A5</nvmData>
+        <checksum crc32="0x7053914A" version="0"/>
         <LUT id="0" regularShape="0" mode="2">
             <item id="0" caption="2-bit LUT0/DFF/LATCH4">
                 <graphics pos="(95.22,-291.33)" angle="90" flipping="0" hidden="0" tOrigin="(20.00,15.00)"/>
@@ -171,13 +171,13 @@
         <IOPad id="34" useCaseMode="2">
             <item id="34" caption="PIN 8">
                 <graphics pos="(715.23,169.44)" angle="0" flipping="1" hidden="0" tOrigin="(20.00,10.00)"/>
-                <textLabel pos="(-2.00,-29.00)" angle="0.00" textColor="#00ff00ff" backgroundColor="#14141464">GREEN</textLabel>
+                <textLabel pos="(-5.00,-29.00)" angle="0.00" textColor="#00ff00ff" backgroundColor="#14141464">GREEN2</textLabel>
             </item>
         </IOPad>
         <IOPad id="35" useCaseMode="4">
             <item id="35" caption="PIN 9">
                 <graphics pos="(714.11,70.77)" angle="0" flipping="1" hidden="0" tOrigin="(20.00,10.00)"/>
-                <textLabel pos="(-9.50,-29.00)" angle="0.00" textColor="#00ff00ff" backgroundColor="#14141464">NGREEN4</textLabel>
+                <textLabel pos="(-2.00,-29.00)" angle="0.00" textColor="#00ff00ff" backgroundColor="#14141464">GREEN</textLabel>
             </item>
         </IOPad>
         <IOPad id="36" useCaseMode="3">
@@ -232,13 +232,13 @@
         <IOPad id="45" useCaseMode="4">
             <item id="45" caption="PIN 19">
                 <graphics pos="(712.78,-648.45)" angle="0" flipping="1" hidden="0" tOrigin="(20.00,10.00)"/>
-                <textLabel pos="(-2.00,-41.00)" angle="0.00" textColor="#ff0000ff" backgroundColor="#14141464">NRED4</textLabel>
+                <textLabel pos="(5.50,-41.00)" angle="0.00" textColor="#ff0000ff" backgroundColor="#14141464">RED</textLabel>
             </item>
         </IOPad>
         <IOPad id="46" useCaseMode="2">
             <item id="46" caption="PIN 20">
                 <graphics pos="(711.67,-714.67)" angle="0" flipping="1" hidden="0" tOrigin="(20.00,10.00)"/>
-                <textLabel pos="(5.50,-29.00)" angle="0.00" textColor="#ff0000ff" backgroundColor="#14141464">RED</textLabel>
+                <textLabel pos="(2.50,-29.00)" angle="0.00" textColor="#ff0000ff" backgroundColor="#14141464">RED2</textLabel>
             </item>
         </IOPad>
         <item id="47" caption="FILTER0">
@@ -451,9 +451,6 @@
         <wire output="28" input="84" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="14" wireText="NET14" wireState="0">
             <points>(340.00,-395.00); (356.00,-395.00); (356.00,-365.00); (360.00,-365.00)</points>
         </wire>
-        <wire output="85" input="30" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="26" wireText="nRED" wireState="1">
-            <points/>
-        </wire>
         <wire output="85" input="24" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="26" wireText="nRED" wireState="1">
             <points/>
         </wire>
@@ -472,7 +469,10 @@
         <wire output="84" input="8" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="28" wireText="nGREEN" wireState="1">
             <points/>
         </wire>
-        <wire output="84" input="12" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="28" wireText="nGREEN" wireState="1">
+        <wire output="33" input="12" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="13" wireText="GREEN" wireState="1">
+            <points/>
+        </wire>
+        <wire output="34" input="30" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="25" wireText="RED" wireState="1">
             <points/>
         </wire>
     </chip>

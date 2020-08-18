@@ -21,3 +21,5 @@ pull up f up to vdd on front,512k
 Remove V_bat to VDD on R4 and Q3 on front
 R7 = 1.5k on front???
 UPDATE R8 18 10 19
+
+add a slot on top for insert

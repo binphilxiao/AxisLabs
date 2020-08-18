@@ -3,11 +3,27 @@ Bottom Board:
 	2. J1 is not reversed, add a corner on outline of J1
 	3. J2 is easy to break.
 	4. bottom solder mask issue
+	5. Add 12k Ohm on M+ and M-
+	6. R2-6 R43,R44might be 10k
+	7. remove r46
+	8. remove c22, c23, c32, c41, c22 is changed to 12k
+	6. r60 change to 10k
+	7. add 3SMAJ5927B-TP between M- and GND
+	
 
 Main Board:
 	1. X3 is updated to FC-135R 32.7680KA-A3 which is available in the market.
-	2. R63 is changed to 10k in all Rev.A board
-	3. Use another IO to control EN of U16
+	2. R63 is changed to 10k in all Rev.A board. 
+	3. Use another IO to control EN of U16, It helps to reduce the current of R63 by 350uA. In this case, R63 can be back to 1M
 	4. add a testpoint of M+, so the MSP430 can be powered up and programmed when M+ is given a back drive voltage.
 	5. add bigger testpoints for VDD_ECD
+	6. add heat dissipation holes under U16
+	7. Q36 might be DMN3033LSNQ-7
+	8. add an extra io between ble and msp for interrupt.
+	9. add tvs on V_bat, scl and sda
+	10. add pull up on SDA and SCL
+        11. C7, C8, U16 should be moved to uper space. C7, C8 has no height attribute
+
+	
+	
 	
