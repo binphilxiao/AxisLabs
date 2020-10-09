@@ -1,7 +1,0 @@
-Bottom Board:
-	1. J1 is reversed in pinout. Keep the routing and reverse the pinout in Sch.
-	2. solder mask bottom is not set properly
-	3. To correct item#1, J1 is not reversed in pinout.
-
-Main Board:
-	1. X3 is updated to FC-135R 32.7680KA-A3 which is available in the market.
