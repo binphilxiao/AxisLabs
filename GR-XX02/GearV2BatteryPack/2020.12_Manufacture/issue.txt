@@ -1,0 +1,25 @@
+battery pack rev.D
+1. R31 to a rectification diode and resistor
+	ok
+2. bq77915 selects bq7791501
+	ok
+4. r29 changed to 1MOhm
+	ok
+5. /SHIP use TVS with higher standby voltage
+	ok
+6. r23 r24 are NOP
+	ok
+7. U1 changes to BQ7791501PWT
+	ok
+8. r43 change to 38k Ohm 0.1%
+	not necessary
+9. Battery pouch goes to lower than insert connector holes. insert holes don't move. Pack+ should be a big square and for the pack- should be a big Oval
+	
+10. add 1Mohm and BAS16XV2T1G between /SHIP and PACK+_1
+	yes
+11. D4 changes to ZXRE250BSA-7, r54 changes to 2k
+	yes
+12. shutdown IIC pull up when USB not plugged in
+	not necessary
+13. r26 changed to 0.005Ohm
+	ok
