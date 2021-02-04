@@ -1,4 +1,0 @@
-1. R63 to be 1M00
-2. D2 changes to ZXRE250BSA-7, r54 changes to 2k
-3. r4, r6 to be 17k, r7, r5 to be 33k
-4. add pull down for all LED controls

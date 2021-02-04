@@ -1,3 +1,0 @@
-1. add FETs to invert PWM and FWD/REV, and drain is not pulled up due to requirement of motor.
-2. add rectification and pull up for /SHIP signal. 
-3. cut off /SHIP from SDA, so SDA is not damaged by higher voltage.
