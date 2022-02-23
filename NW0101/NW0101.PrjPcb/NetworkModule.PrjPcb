@@ -166,40 +166,6 @@ GenerateClassCluster=0
 DocumentUniqueId=PUNSIQWO
 
 [Document8]
-DocumentPath=NetworkModule.SCHLIB
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=VPEZMOVP
-
-[Document9]
-DocumentPath=NetworkModule.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=DQODURCC
-
-[Document10]
 DocumentPath=NetworkModule.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -217,10 +183,6 @@ GenerateClassCluster=0
 DocumentUniqueId=ILKUIJNU
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for NetworkModule\BGA Escape Route - NetworkModule.html
-DItemRevisionGUID=
-
-[GeneratedDocument2]
 DocumentPath=Project Outputs for NetworkModule\Design Rule Check - NetworkModule.html
 DItemRevisionGUID=
 
