@@ -31,7 +31,7 @@ ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=0
-OutputPath=Project Outputs for NetworkModule
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -166,23 +166,6 @@ GenerateClassCluster=0
 DocumentUniqueId=PUNSIQWO
 
 [Document8]
-DocumentPath=C:\Users\bin\Downloads\NetworkModule.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=ILKUIJNU
-
-[Document9]
 DocumentPath=NetworkModule.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -199,25 +182,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EUDUKURI
 
-[Document10]
-DocumentPath=NetworkModule.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document11]
-DocumentPath=NetworkModule_1.SCHLIB
+[Document9]
+DocumentPath=NetworkModule.SCHLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -233,8 +199,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VYQVHMZH
 
-[Document12]
-DocumentPath=C:\Users\bin\Downloads\Copy of NetworkModule.PcbDoc
+[Document10]
+DocumentPath=NetworkModule.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -248,310 +214,10 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=CJBFRVHL
+DocumentUniqueId=XTQXQMAP
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for NetworkModule\Copy of NetworkModule.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for NetworkModule\Copy of NetworkModule.G1
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for NetworkModule\Copy of NetworkModule.G2
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Project Outputs for NetworkModule\Copy of NetworkModule.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Project Outputs for NetworkModule\Copy of NetworkModule.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Project Outputs for NetworkModule\Copy of NetworkModule.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs for NetworkModule\Copy of NetworkModule.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Project Outputs for NetworkModule\Copy of NetworkModule.GM8
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Project Outputs for NetworkModule\Copy of NetworkModule.GP1
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Project Outputs for NetworkModule\Copy of NetworkModule.GP2
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=Project Outputs for NetworkModule\Copy of NetworkModule.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=Project Outputs for NetworkModule\Copy of NetworkModule.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=Project Outputs for NetworkModule\Copy of NetworkModule.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=Project Outputs for NetworkModule\Copy of NetworkModule.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=Project Outputs for NetworkModule\Copy of NetworkModule.REP
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=Project Outputs for NetworkModule\Copy of NetworkModule.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument17]
 DocumentPath=Project Outputs for NetworkModule\Design Rule Check - NetworkModule.html
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=Project Outputs for NetworkModule\NetworkModule.1
-DItemRevisionGUID=
-
-[GeneratedDocument19]
-DocumentPath=Project Outputs for NetworkModule\NetworkModule.2
-DItemRevisionGUID=
-
-[GeneratedDocument20]
-DocumentPath=Project Outputs for NetworkModule\NetworkModule.3
-DItemRevisionGUID=
-
-[GeneratedDocument21]
-DocumentPath=Project Outputs for NetworkModule\NetworkModule.4
-DItemRevisionGUID=
-
-[GeneratedDocument22]
-DocumentPath=Project Outputs for NetworkModule\NetworkModule.5
-DItemRevisionGUID=
-
-[GeneratedDocument23]
-DocumentPath=Project Outputs for NetworkModule\NetworkModule.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument24]
-DocumentPath=Project Outputs for NetworkModule\NetworkModule.G1
-DItemRevisionGUID=
-
-[GeneratedDocument25]
-DocumentPath=Project Outputs for NetworkModule\NetworkModule.G2
-DItemRevisionGUID=
-
-[GeneratedDocument26]
-DocumentPath=Project Outputs for NetworkModule\NetworkModule.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument27]
-DocumentPath=Project Outputs for NetworkModule\NetworkModule.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument28]
-DocumentPath=Project Outputs for NetworkModule\NetworkModule.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument29]
-DocumentPath=Project Outputs for NetworkModule\NetworkModule.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument30]
-DocumentPath=Project Outputs for NetworkModule\NetworkModule.GKO
-DItemRevisionGUID=
-
-[GeneratedDocument31]
-DocumentPath=Project Outputs for NetworkModule\NetworkModule.GM1
-DItemRevisionGUID=
-
-[GeneratedDocument32]
-DocumentPath=Project Outputs for NetworkModule\NetworkModule.GM2
-DItemRevisionGUID=
-
-[GeneratedDocument33]
-DocumentPath=Project Outputs for NetworkModule\NetworkModule.GM3
-DItemRevisionGUID=
-
-[GeneratedDocument34]
-DocumentPath=Project Outputs for NetworkModule\NetworkModule.GM4
-DItemRevisionGUID=
-
-[GeneratedDocument35]
-DocumentPath=Project Outputs for NetworkModule\NetworkModule.GM5
-DItemRevisionGUID=
-
-[GeneratedDocument36]
-DocumentPath=Project Outputs for NetworkModule\NetworkModule.GM6
-DItemRevisionGUID=
-
-[GeneratedDocument37]
-DocumentPath=Project Outputs for NetworkModule\NetworkModule.GM7
-DItemRevisionGUID=
-
-[GeneratedDocument38]
-DocumentPath=Project Outputs for NetworkModule\NetworkModule.GM8
-DItemRevisionGUID=
-
-[GeneratedDocument39]
-DocumentPath=Project Outputs for NetworkModule\NetworkModule.GM16
-DItemRevisionGUID=
-
-[GeneratedDocument40]
-DocumentPath=Project Outputs for NetworkModule\NetworkModule.GM17
-DItemRevisionGUID=
-
-[GeneratedDocument41]
-DocumentPath=Project Outputs for NetworkModule\NetworkModule.GM32767
-DItemRevisionGUID=
-
-[GeneratedDocument42]
-DocumentPath=Project Outputs for NetworkModule\NetworkModule.GML
-DItemRevisionGUID=
-
-[GeneratedDocument43]
-DocumentPath=Project Outputs for NetworkModule\NetworkModule.GP1
-DItemRevisionGUID=
-
-[GeneratedDocument44]
-DocumentPath=Project Outputs for NetworkModule\NetworkModule.GP2
-DItemRevisionGUID=
-
-[GeneratedDocument45]
-DocumentPath=Project Outputs for NetworkModule\NetworkModule.GPB
-DItemRevisionGUID=
-
-[GeneratedDocument46]
-DocumentPath=Project Outputs for NetworkModule\NetworkModule.GPT
-DItemRevisionGUID=
-
-[GeneratedDocument47]
-DocumentPath=Project Outputs for NetworkModule\NetworkModule.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument48]
-DocumentPath=Project Outputs for NetworkModule\NetworkModule.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument49]
-DocumentPath=Project Outputs for NetworkModule\NetworkModule.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument50]
-DocumentPath=Project Outputs for NetworkModule\NetworkModule.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument51]
-DocumentPath=Project Outputs for NetworkModule\NetworkModule.REP
-DItemRevisionGUID=
-
-[GeneratedDocument52]
-DocumentPath=Project Outputs for NetworkModule\NetworkModule.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument53]
-DocumentPath=Project Outputs for NetworkModule\NetworkModule_Assembly_Drawing_Bottom.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument54]
-DocumentPath=Project Outputs for NetworkModule\NetworkModule_Assembly_Drawing_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument55]
-DocumentPath=Project Outputs for NetworkModule\NetworkModule_Bottom_Covering.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument56]
-DocumentPath=Project Outputs for NetworkModule\NetworkModule_Copper_Plane_1.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument57]
-DocumentPath=Project Outputs for NetworkModule\NetworkModule_Copper_Plane_2.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument58]
-DocumentPath=Project Outputs for NetworkModule\NetworkModule_Copper_Signal_1.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument59]
-DocumentPath=Project Outputs for NetworkModule\NetworkModule_Copper_Signal_2.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument60]
-DocumentPath=Project Outputs for NetworkModule\NetworkModule_Copper_Signal_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument61]
-DocumentPath=Project Outputs for NetworkModule\NetworkModule_Copper_Signal_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument62]
-DocumentPath=Project Outputs for NetworkModule\NetworkModule_Filling.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument63]
-DocumentPath=Project Outputs for NetworkModule\NetworkModule_Keep-out.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument64]
-DocumentPath=Project Outputs for NetworkModule\NetworkModule_Layer_20.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument65]
-DocumentPath=Project Outputs for NetworkModule\NetworkModule_Layer_25.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument66]
-DocumentPath=Project Outputs for NetworkModule\NetworkModule_Legend_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument67]
-DocumentPath=Project Outputs for NetworkModule\NetworkModule_Legend_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument68]
-DocumentPath=Project Outputs for NetworkModule\NetworkModule_Pads_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument69]
-DocumentPath=Project Outputs for NetworkModule\NetworkModule_Pads_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument70]
-DocumentPath=Project Outputs for NetworkModule\NetworkModule_Paste_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument71]
-DocumentPath=Project Outputs for NetworkModule\NetworkModule_Paste_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument72]
-DocumentPath=Project Outputs for NetworkModule\NetworkModule_Profile.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument73]
-DocumentPath=Project Outputs for NetworkModule\NetworkModule_Route_Guide.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument74]
-DocumentPath=Project Outputs for NetworkModule\NetworkModule_Soldermask_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument75]
-DocumentPath=Project Outputs for NetworkModule\NetworkModule_Soldermask_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument76]
-DocumentPath=Project Outputs for NetworkModule\NetworkModule_Top_Covering.gbr
 DItemRevisionGUID=
 
 [Configuration1]
@@ -601,7 +267,7 @@ SCH_HasExpandLogicalToPhysicalSheets=0
 SaveSettingsToOutJob=-1
 
 [Generic_EDE]
-OutputDir=Project Outputs for NetworkModule
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
