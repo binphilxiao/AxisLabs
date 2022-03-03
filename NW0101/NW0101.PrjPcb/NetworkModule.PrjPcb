@@ -183,23 +183,6 @@ GenerateClassCluster=0
 DocumentUniqueId=EUDUKURI
 
 [Document9]
-DocumentPath=NetworkModule.SCHLIB
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=VYQVHMZH
-
-[Document10]
 DocumentPath=NetworkModule.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -215,6 +198,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XTQXQMAP
+
+[Document10]
+DocumentPath=NetworkModule.SCHLIB
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=UATQDHIR
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for NetworkModule\Design Rule Check - NetworkModule.html
