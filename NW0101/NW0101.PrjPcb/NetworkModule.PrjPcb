@@ -183,23 +183,6 @@ GenerateClassCluster=0
 DocumentUniqueId=EUDUKURI
 
 [Document9]
-DocumentPath=C:\Users\bin\Downloads\NetworkModuleTmp.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=XTQXQMAP
-
-[Document10]
 DocumentPath=NetworkModule.SCHLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -216,7 +199,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UATQDHIR
 
-[Document11]
+[Document10]
 DocumentPath=NetworkModule.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
