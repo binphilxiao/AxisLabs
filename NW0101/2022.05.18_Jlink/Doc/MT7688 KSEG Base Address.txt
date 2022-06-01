@@ -1,0 +1,6 @@
+#define KSEG_MSK                  0xE0000000
+#define KSEG0BASE                 0x80000000
+#define KSEG1BASE                 0xA0000000
+#define KSEG2BASE                 0xC0000000
+#define KSEG3BASE                 0xE0000000
+#define KUSEGBASE                 0x00000000

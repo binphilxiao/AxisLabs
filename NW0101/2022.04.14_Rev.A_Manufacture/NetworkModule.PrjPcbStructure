@@ -1,0 +1,7 @@
+Record=TopLevelDocument|FileName=ETH_JTAG_SD.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=ETH_JTAG_SD.SchDoc|FileName=INTERFACE.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=ETH_JTAG_SD.SchDoc|FileName=MEMORY.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=ETH_JTAG_SD.SchDoc|FileName=MISC.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=ETH_JTAG_SD.SchDoc|FileName=POWER.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=ETH_JTAG_SD.SchDoc|FileName=USB_PCIE.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=ETH_JTAG_SD.SchDoc|FileName=WIFI.SchDoc|SheetNumber= 

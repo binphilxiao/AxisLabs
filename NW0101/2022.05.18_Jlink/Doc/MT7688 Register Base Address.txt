@@ -1,0 +1,32 @@
+#define RALINK_SYSCTL_BASE              0xB0000000
+#define RALINK_TIMER_BASE               0xB0000100
+#define RALINK_INTCL_BASE               0xB0000200
+#define RALINK_MEMCTRL_BASE             0xB0000300
+#define RALINK_RBUS_MATRIXCTL_BASE      0xB0000400
+#define RALINK_MIPS_CNT_BASE            0x10000500
+#define RALINK_PIO_BASE                 0xB0000600
+#define RALINK_I2C_BASE                 0xB0000900
+#define RALINK_I2S_BASE                 0xB0000A00
+#define RALINK_SPI_BASE                 0xB0000B00
+#define RALINK_UART_LITE_BASE           0x10000C00
+#define RALINK_UART_LITE2_BASE          0x10000D00
+#define RALINK_UART_LITE3_BASE          0x10000E00
+#define RALINK_PCM_BASE                 0xB0002000
+#define RALINK_GDMA_BASE                0xB0002800
+#define RALINK_AES_ENGING_BASE          0xB0004000
+#define RALINK_CRYPTO_ENGING_BASE       RALINK_AES_ENGING_BASE
+#define RALINK_RGCTRL_BASE				0xB0001000
+#define RALINK_FRAME_ENGINE_BASE        0xB0100000
+#define RALINK_ETH_SW_BASE              0xB0110000
+#define RALINK_USB_DEV_BASE             0x10120000
+#define RALINK_MSDC_BASE                0xB0130000
+#define RALINK_PCI_BASE                 0xB0140000
+#define RALINK_11N_MAC_BASE             0xB0180000
+#define RALINK_USB_HOST_BASE            0x101C0000
+
+#define RALINK_MCNT_CFG                 0xB0000D00
+#define RALINK_COMPARE                  0xB0000D04
+#define RALINK_COUNT                    0xB0000D08
+
+#define RALINK_CPLLCFG0_REG		(RALINK_SYSCTL_BASE+0x54)
+#define RALINK_CPLLCFG1_REG		(RALINK_SYSCTL_BASE+0x58)
