@@ -1,0 +1,3 @@
+1. VREF-0.9 IS NOT CONNECTED TO V1.8
+2. ANT_OUT rf topology issue
+3. WIFI termination: 10nH, as reference design
