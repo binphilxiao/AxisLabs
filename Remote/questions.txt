@@ -1,3 +1,0 @@
-1. buttons spec, how many
-2. pcb shape
-3. any led?
