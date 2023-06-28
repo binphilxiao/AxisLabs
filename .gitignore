@@ -1,0 +1,17 @@
+ImportedPartModels
+Output
+*.dat
+*.inf
+*.rep
+*.xml
+*.cce
+*.cam
+*.zip
+*.pjh
+*.raw
+*.eco
+*.log
+*.img.gz
+*.OutJob
+*.PrjPcbStructure
+

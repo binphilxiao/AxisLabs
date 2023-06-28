@@ -1,0 +1,6 @@
+1.d5 d6 move to bottom layer
+2. LDO too high ground current, reselect parts.
+3. motor moves when programming.
+4. check out how I had to push the sensor PCB up. We need to make a new version with an extra 3mm offset
+5. prototype a sensor PCB based on the DRV5012 sensor
+6. R21 to 0Ohm, R34 to 68k Ohm
