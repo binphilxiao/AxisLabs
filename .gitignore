@@ -15,4 +15,10 @@ Output
 *.img.gz
 *.OutJob
 *.PrjPcbStructure
+*.plt
+*.exe
+*.apk
+*.zip
+*.gdraw
+
 
