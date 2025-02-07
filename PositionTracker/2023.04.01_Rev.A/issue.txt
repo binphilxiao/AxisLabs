@@ -1,0 +1,8 @@
+1. ADD TESTPOINTS FOR BOOT AND BLE_EN
+2. ADD IO CONTROL OF XSHUT_TOF(IO 4,5,6,7)
+3. fix oritation issue for U5
+4. add pin 1 circle of U1
+5. r38 change to 10k
+6. add pull up for boot
+8. Q3 use low V-gs and low Rds-on FET
+9, Try remove Q2, Q7, Q39

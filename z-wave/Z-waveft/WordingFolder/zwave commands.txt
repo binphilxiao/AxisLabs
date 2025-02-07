@@ -1,7 +1,0 @@
-.\zme_prog7.exe flashSlots -dp ..\ryse_product.json -qr ..\qr_codes\ -o DSK -d COM7
-
-
-
-
-
-
