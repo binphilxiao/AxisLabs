@@ -1,0 +1,4 @@
+switch the +ve and -ve solder pad terminals for SB control box
+tvs diode is bidirectional, see main BOM c.1 and motor BOM c.2
+Tvs should be 5.8v not 58v
+connector for mfp is wrong, use the same one on smartcurtain

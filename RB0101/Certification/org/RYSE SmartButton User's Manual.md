@@ -1,68 +1,80 @@
-# Smart Button 使用说明书
+# SmartButton User's Manual
 
-## 1. 硬件概览
-- **上键 (UP Button):** 控制设备向上/打开。
-- **下键 (DOWN Button):** 控制设备向下/关闭。
-- **复位键 (RESET Button):** 用于系统复位或恢复出厂设置。
-- **LED 指示灯:** 包含 **绿色** 和 **红色** 指示灯，用于指示状态和电量。
-
----
-
-## 2. 基础控制功能
-
-### 窗帘/设备控制
-*   **打开/运行到顶部:**
-    *   **操作:** 单击 **上键 (UP)**。
-    *   **功能:** 将已配对的设备运行到 0% 位置 (Top Position)。
-*   **关闭/运行到底部:**
-    *   **操作:** 单击 **下键 (DOWN)**。
-    *   **功能:** 将已配对的设备运行到 100% 位置 (Bottom Position)。
-
-### 电池电量指示
-每次按下任意按键 (上/下/复位) 时，LED 灯会点亮指示当前电池电量：
-*   **绿灯亮 (Green ON):** 电量充足 (电池电压 > 2.7V)。
-*   **红灯亮 (Red ON):** 电量低 (电池电压 ≤ 2.7V)，请考虑更换电池。
+## 1. Hardware Overview
+- **UP Button:** Controls the device to move up/open.
+- **DOWN Button:** Controls the device to move down/close.
+- **RESET Button:** Used for system reset or factory reset.
+- **LED Indicator:** Includes **Green** and **Red** indicators to show status and battery level.
 
 ---
 
-## 3. 配对与设置 (Pairing)
+## 2. Basic Control Functions
 
-### 进入配对模式
-*   **操作:** 同时长按 **上键 (UP)** 和 **下键 (DOWN)** 不放。
-*   **指示:** 直到 **绿灯开始快速闪烁**。
-*   **说明:**
-    *   此时遥控器进入扫描配对状态，持续约 3 分钟 (180秒)。
-    *   **配对成功:** 绿灯 **常亮 2 秒** (Hold)。
-    *   **配对超时(无设备):** 红灯 **闪烁 6 次**。
-    *   **配对被拒绝/错误:** 红灯 **闪烁 4 次**。
+### Curtain/Device Control
+*   **Open/Move to Top:**
+    *   **Operation:** Single-click the **UP Button**.
+    *   **Function:** Moves the paired device to the 0% position (Top Position).
+*   **Close/Move to Bottom:**
+    *   **Operation:** Single-click the **DOWN Button**.
+    *   **Function:** Moves the paired device to the 100% position (Bottom Position).
 
-### 退出配对模式
-*   在配对模式下，单击任意按键 (上或下) 可立即终止配对模式，LED 熄灭。
-
----
-
-## 4. 系统维护
-
-### 系统复位 (Soft Reset)
-*   **操作:** 单击 **复位键 (RESET)**。
-*   **功能:** 遥控器将重新启动 (System Reset)。
-*   **指示:** 同样会根据电量短暂亮起绿灯或红灯。
-
-### 恢复出厂设置 (Factory Reset)
-*   **操作:** 长按 **复位键 (RESET)**。
-*   **指示:** **绿灯常亮**。
-*   **功能:** 清除所有已绑定的设备信息 (删除所有 Peers)，遥控器恢复到初始状态。
+### Battery Level Indication
+Each time any button (UP/DOWN/RESET) is pressed, the LED will light up to indicate the current battery level:
+*   **Green ON:** Sufficient battery (Battery Voltage > 2.7V).
+*   **Red ON:** Low battery (Battery Voltage ≤ 2.7V), please consider replacing the battery.
 
 ---
 
-## 5. LED 状态速查表
+## 3. Pairing and Setup
 
-| 状态 | LED 表现 | 说明 |
+### Entering Pairing Mode
+*   **Operation:** Press and hold both the **UP Button** and **DOWN Button** simultaneously.
+*   **Indication:** Until the **Green light starts flashing rapidly**.
+*   **Description:**
+    *   The remote will enter scanning and pairing mode, which lasts for about 3 minutes (180 seconds).
+    *   **Pairing Successful:** The Green light will stay on for 2 seconds (Hold).
+    *   **Pairing Timeout (No Device):** The Red light will flash 6 times.
+    *   **Pairing Rejected/Error:** The Red light will flash 4 times.
+
+### Exiting Pairing Mode
+*   In pairing mode, single-click any button (UP or DOWN) to immediately terminate pairing mode, and the LED will turn off.
+
+---
+
+## 4. System Maintenance
+
+### System Reset (Soft Reset)
+*   **Operation:** Single-click the **RESET Button**.
+*   **Function:** The remote control will restart (System Reset).
+*   **Indication:** The Green or Red light will also briefly turn on according to the battery level.
+
+### Factory Reset
+*   **Operation:** Press and hold the **RESET Button**.
+*   **Indication:** The **Green light will stay on**.
+*   **Function:** Clears all bound device information (deletes all Peers), and the remote control is restored to its initial state.
+
+---
+
+## 5. LED Status Quick Reference Table
+
+| Status | LED Behavior | Description |
 | :--- | :--- | :--- |
-| **按键操作** | 绿灯亮 | 操作有效且电量充足 |
-| | 红灯亮 | 操作有效但电量低 |
-| **配对中** | 绿灯快速闪烁 | 正在扫描设备 (配对模式) |
-| **配对结果** | 绿灯常亮 2秒 | 配对成功 |
-| | 红灯闪烁 6次 | 配对超时/未找到设备 |
-| | 红灯闪烁 4次 | 配对被拒绝或出错 |
-| **恢复出厂** | 绿灯常亮 | 数据已清除 |
+| **Button Operation** | Green light on | Operation valid and battery sufficient |
+| | Red light on | Operation valid but battery low |
+| **Pairing** | Green light flashes rapidly | Scanning for devices (Pairing mode) |
+| **Pairing Result** | Green light on for 2 seconds | Pairing successful |
+| | Red light flashes 6 times | Pairing timed out/No device found |
+| | Red light flashes 4 times | Pairing rejected or error |
+| **Factory Reset** | Green light stays on | Data has been cleared |
+
+---
+
+## 6. RF and Electrical Parameters
+
+| Parameter | Specification |
+| :--- | :--- |
+| **Operating Frequency** | 2402–2480 MHz |
+| **Rated Power** | 0.1–0.2 W |
+| **Rated Voltage** | 2.0V – 3.3V |
+| **Rated Current** | 0.1–50 mA |
+| **Operating Temperature** | 0–40 °C |

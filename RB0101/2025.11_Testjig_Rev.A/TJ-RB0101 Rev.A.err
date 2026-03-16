@@ -1,0 +1,17 @@
+PCB Net List Errors Report - TJ-RB0101 Rev.A.sch - Fri Jan 23 14:27:04 2026
+----------------------------------------------------------------------------
+Design to Library Part Consistency Check
+----------------------------------------
+No Library consistency checking errors.
+
+Single/Zero Pin Net Warnings
+----------------------------
+No single or zero pin nets.
+
+Schematic Connectivity Errors
+-----------------------------
+
+Subnets with Off-Page Reference to no other Subnet
+
+VIN_1
+POWER        X4648  Y8380 

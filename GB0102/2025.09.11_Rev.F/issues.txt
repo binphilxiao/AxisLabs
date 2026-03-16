@@ -1,0 +1,4 @@
+1. the low voltage indicator is not needed. 
+2. q111,q112,r116 should be replaced by 0Ohm resistor or short the powerline, the current without USB is only 8uA
+3. D3 & D4 should change decal
+4. add green LED for full, modify resistors for both LEDs
